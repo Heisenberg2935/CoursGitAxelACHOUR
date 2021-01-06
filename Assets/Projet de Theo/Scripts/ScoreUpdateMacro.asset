@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: ScoreUpdateMacro
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":267.0,"y":-64.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-220.0,"y":-213.0},"guid":"41cde206-a473-4901-846e-fcbb7c2d0d1d","$version":"A","$type":"Bolt.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-42.0,"y":-182.0},"guid":"bfaf325b-f087-487f-bb2a-e21f7b10f258","$version":"A","$type":"Bolt.Update","$id":"11"},{"chainable":false,"member":{"name":"text","parameterTypes":null,"targetType":"UnityEngine.UI.Text","targetTypeName":"UnityEngine.UI.Text","$version":"A"},"defaultValues":{"target":null,"input":{"$content":"","$type":"System.String"}},"position":{"x":268.0,"y":-181.0},"guid":"7c724c3d-7cbb-4f67-bc36-9d7df6083904","$version":"A","$type":"Bolt.SetMember","$id":"13"},{"chainable":false,"member":{"name":"ToString","parameterTypes":[],"targetType":"System.Int32","targetTypeName":"System.Int32","$version":"A"},"defaultValues":{"target":{"$content":0,"$type":"System.Int32"}},"position":{"x":29.0,"y":-25.0},"guid":"45d90fa6-21b8-4f8b-87ba-db8f5b08d521","$version":"A","$type":"Bolt.InvokeMember","$id":"16"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"Score","$type":"System.String"}},"position":{"x":-196.0,"y":-12.0},"guid":"7d638323-df5d-408b-b818-5126c018f663","$version":"A","$type":"Bolt.GetVariable","$id":"19"},{"chainable":false,"member":{"name":"visible","parameterTypes":null,"targetType":"UnityEngine.Cursor","targetTypeName":"UnityEngine.Cursor","$version":"A"},"defaultValues":{"input":{"$content":false,"$type":"System.Boolean"}},"position":{"x":591.0,"y":-84.0},"guid":"e00e1d53-4a6f-4452-ac5a-2d49dac060ab","$version":"A","$type":"Bolt.SetMember"},{"sourceUnit":{"$ref":"11"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"assign","guid":"97be156c-3043-49f0-9d5b-2a5cb9cab58c","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"value","destinationUnit":{"$ref":"16"},"destinationKey":"target","guid":"ae9ae55e-3727-4a61-abf9-e7a89af57ba7","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"result","destinationUnit":{"$ref":"13"},"destinationKey":"input","guid":"6d3b9cd9-16bf-4dd1-8719-5954423ae529","$type":"Bolt.ValueConnection"},{"position":{"xMin":19.0,"yMin":-237.0,"xMax":581.0,"yMax":141.0},"label":"On
+      r\u00e9cup la valeur du score et on l''affiche a l''\u00e9cran","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"992df692-d842-4680-b3f1-99ec9c40b79c","$version":"A","$type":"Ludiq.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []
